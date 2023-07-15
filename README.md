@@ -104,7 +104,6 @@ class Application(Tk, Frame):
                 self.words[x+2] = str(id(self.words[x+2]))
 
         for index, value in enumerate(self.words):
-            if ("выдал" in self.words[index])
 
         with open(self.filename.get().split()[0], 'a', encoding=self.filename.get().split()[1]) as s:
             s.write(' '.join(self.words) + "\n")
